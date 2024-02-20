@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-oh@w-dc++7=@%vj&a+*@wi)@x!+ok(-3iq+-qd05cv6!exarcl
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-conal2023-django-blog-lhckibzn6e.us2.codeanyapp.com',
+    '8000-conal2023-djangoblog-7guibojkpuk.ws-eu108.gitpod.io',
     '.herokuapp.com'
     ]
 
@@ -107,6 +107,7 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
+    "https://*.gitpod.io",
     "https://*.herokuapp.com"
 ]
 
